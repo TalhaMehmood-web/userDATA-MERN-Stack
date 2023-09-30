@@ -1,0 +1,14 @@
+.item {
+  text-align: center;
+  border: 1px solid black;
+}
+item p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.users {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
